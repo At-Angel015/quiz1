@@ -1,0 +1,34 @@
+# Ignorar archivos compilados y temporales para proyecto Java
+
+# Directorios de salida
+bin/
+lib/
+
+# Archivos de clase compilados
+*.class
+
+# Paquetes y artefactos
+*.jar
+*.war
+*.ear
+
+# Build tools
+target/
+build/
+
+# IDEs y metadatos
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+.vscode/
+
+# Logs y archivos temporales
+*.log
+.DS_Store
+Thumbs.db
+
+# Otros
+*.tmp
+*.bak
